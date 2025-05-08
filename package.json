@@ -1,0 +1,12 @@
+{
+  "name": "eum-link-app-api",
+  "version": "1.0.0",
+  "description": "json-server backend for missing pet platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 10000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
